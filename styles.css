@@ -1,0 +1,88 @@
+/* Stili di base per il corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stili per l'header */
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+/* Stili per la galleria */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stili per la sezione di aggiunta foto */
+.add-photo {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-bottom: 100px;
+}
+
+.add-photo h2 {
+    margin-top: 0;
+}
+
+.add-photo form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-photo input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-photo button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-photo button:hover {
+    background-color: #555;
+}
+
+/* Stili per il footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
